@@ -11,12 +11,10 @@ spec:
   selector:
     matchLabels:
       app: nginx
-      test: nginx
   template:
     metadata:
       labels:
         app: nginx
-        test: nginx
     spec:
       containers:
       - image: nginx
