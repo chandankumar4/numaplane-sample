@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: nginx
+    test: nginx
   name: nginx
   namespace: numaplane-system
 spec:
@@ -10,11 +11,14 @@ spec:
   selector:
     matchLabels:
       app: nginx
+      test: nginx
   template:
     metadata:
       labels:
         app: nginx
+        test: nginx
     spec:
       containers:
       - image: nginx
+        imagePullPolicy: Always
         name: nginx
