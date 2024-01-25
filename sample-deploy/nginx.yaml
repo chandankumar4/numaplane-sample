@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   labels:
     app: nginx
-    test: nginx2
   name: nginx
   namespace: numaplane-system
 spec:
