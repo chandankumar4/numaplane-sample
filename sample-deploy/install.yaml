@@ -592,8 +592,8 @@ metadata:
   name: numaflow-dex-secrets
   namespace: numaflow-system
 stringData:
-  dex-github-client-id: <GITHUB_CLIENT_ID>
-  dex-github-client-secret: <GITHUB_CLIENT_SECRET>
+  dex-github-client-id: "test"
+  dex-github-client-secret: "test"
 ---
 apiVersion: v1
 kind: Secret
