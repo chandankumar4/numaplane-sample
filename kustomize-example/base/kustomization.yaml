@@ -6,7 +6,6 @@ resources:
   - shared-config
   - controller-manager
   - numaflow-server
-  - dex
 
 images:
   - name: quay.io/numaproj/numaflow
